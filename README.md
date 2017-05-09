@@ -37,7 +37,7 @@ Now, let's run *just* the `Course` specs by typing `rspec spec/course_spec.rb` i
 
 ![](http://readme-pics.s3.amazonaws.com/Screen%20Shot%202015-08-20%20at%202.53.11%20PM.png)
 
-Looks like we have some methods to define. Let's start with the instance method tests. The test output tells us that we need setters and getters for `title`, `schedule` and `description`. Let's make them `attr_accessors`
+Looks like we have some methods to define. Let's start with the instance method tests. The test output tells us that we need setters and getters for `title`, `schedule` and `description`. Let's make them `attr_accessor`s
 
 ```ruby
 class Course
